@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.main-header {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    color: #aaafb6;
+    display: flex;
+    gap: 25px;
+    padding: 0px;
+}
+
+.intro {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 35px;
+    min-height: 100px;
+    align-items: center;
+}
+
+.title, .description {
+    max-width: 500px;
+}

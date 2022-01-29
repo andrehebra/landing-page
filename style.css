@@ -70,8 +70,8 @@ ul {
     align-items: center;
     background-color: white;
     color: black;
-    height: 220px;
-    width: auto;
+    height: auto;
+    width: 300px;
 }
 
 .random-info {
@@ -111,4 +111,31 @@ ul {
 
 p {
     text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 50px;
+}
+
+.quote-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 835px;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
 }

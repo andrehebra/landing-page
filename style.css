@@ -33,9 +33,11 @@ ul {
     background-color: #1F2937;
     justify-content: center;
     gap: 35px;
-    height: 320px;
+    
     align-items: center;
     color: white;
+    padding: 40px 20px;
+    flex-wrap: wrap;
 }
 
 .intro-left {
@@ -70,4 +72,43 @@ ul {
     color: black;
     height: 220px;
     width: auto;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 30px;
+}
+
+.random-header {
+    font-size: 36px;
+    font-weight: bold;
+    color:#1F2937;
+}
+
+.cards-horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+}
+
+.profile {
+    max-width: 100px;
+    border: 2px solid #1F2937;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
 }

@@ -139,3 +139,34 @@ p {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.call-to-action {
+    background-color: #3b82f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px 50px;
+    margin: 30px 50px;
+    border-radius: 5px;
+}
+
+.call-left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.call-button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
